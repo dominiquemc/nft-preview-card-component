@@ -1,0 +1,27 @@
+* {
+
+    --Softblue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --Verydarkblue: hsl(217, 54%, 11%);
+    /* background color */
+    --Verydarkbluecard: hsl(216, 50%, 16%);
+    --Verydarkblueline: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+
+body {
+    background-color: var(--Verydarkblue);
+}
+
+.container {
+    background-color: var(--Verydarkbluecard);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
