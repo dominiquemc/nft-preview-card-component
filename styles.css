@@ -49,9 +49,10 @@ img {
     border-radius: 0.5rem;
 }
 
-img::active {
+img:active {
     background-color: var(--Cyan);
     transition: 0.3s;
+    opacity: 0.8;
 }
 
 
