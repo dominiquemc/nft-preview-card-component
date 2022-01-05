@@ -45,7 +45,7 @@ body {
 
 img {
     width: 17rem;
-    border-radius: 8px;
+    border-radius: 0.5rem;
 }
 
 .title-detail {
@@ -53,33 +53,33 @@ img {
     flex-direction: column;
     width: 95%;
     margin-left: auto;
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 h3 {
     font-size: 1.3rem;
     color: var(--White);
-    margin-bottom: 15px;
+    margin-bottom: 0.938rem;
 }
 
 .details {
     color: var(--Softblue);
     font-weight: 300;
     font-size: 0.95rem;
-    line-height: 25px;
+    line-height: 1.563rem;
 }
 
 .time {
     display: flex;
     justify-content: space-between;
-    margin-top: 15px;
+    margin-top: 0.938rem;
 
 }
 
 .eth {
     font-size: 0.9rem;
     color: var(--Cyan);
-    padding-left: 5px;
+    padding-left: 0.313rem;
     font-weight: 600;
 
 }
@@ -87,7 +87,7 @@ h3 {
 .days-left {
     font-size: 0.9rem;
     color: var(--Softblue);
-    padding: 0px 20px 0px 5px;
+    padding: 0rem 1.25rem 0rem 0.313px;
 }
 
 .time-image-section1 {
@@ -108,19 +108,19 @@ h3 {
 .time-image2 {
     width: 1rem;
     object-fit: contain;
-
+    margin-right: 0.313rem;
 }
 
 .icon {
     width: 2rem;
-    border: 1px solid white;
+    border: 0.063rem solid white;
     border-radius: 50%;
     object-fit: contain;
 }
 
 .creation {
-    border-top: 1px solid var(--Verydarkblueline);
-    margin-top: 15px;
+    border-top: 0.063rem solid var(--Verydarkblueline);
+    margin-top: 0.938rem;
 
 }
 
@@ -128,13 +128,13 @@ h3 {
     color: var(--Softblue);
     font-weight: 300;
     font-size: 0.9rem;
-    margin-left: 15px;
-    margin-top: 5px;
+    margin-left: 0.938rem;
+    margin-top: 0.5rem;
 }
 
 .creation-details {
     display: flex;
-    margin-top: 15px;
+    margin-top: 0.938rem;
 
 }
 
@@ -143,9 +143,9 @@ span {
 }
 
 .attribution {
-    font-size: 11px;
+    font-size: 0.688rem;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 0.938rem;
 }
 
 .attribution a {
