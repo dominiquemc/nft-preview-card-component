@@ -30,9 +30,10 @@ body {
     flex-direction: column;
     margin: 7rem auto 0 auto;
     width: 20.5rem;
-    height: 32.5rem;
+    height: 34.5rem;
     border-radius: 0.625rem;
 }
+
 
 .card-img {
     display: flex;
@@ -48,6 +49,11 @@ img {
     border-radius: 0.5rem;
 }
 
+img::active {
+    background-color: var(--Cyan);
+    transition: 0.3s;
+}
+
 
 
 .title-detail {
@@ -60,8 +66,17 @@ img {
 
 h3 {
     font-size: 1.3rem;
-    color: var(--White);
     margin-bottom: 0.938rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--White);
+}
+
+a:active {
+    color: var(--Cyan);
+
 }
 
 .details {
