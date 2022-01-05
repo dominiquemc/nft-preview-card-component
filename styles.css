@@ -1,4 +1,10 @@
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
 
     --Softblue: hsl(215, 51%, 70%);
     --Cyan: hsl(178, 100%, 50%);
@@ -9,12 +15,29 @@
     --White: hsl(0, 0%, 100%);
 }
 
+html,
 body {
     background-color: var(--Verydarkblue);
+    height: 100vh;
 }
 
 .container {
     background-color: var(--Verydarkbluecard);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 20rem;
+    height: 35rem;
+    margin-top: 5rem;
+    border-radius: 0.625rem;
+
+}
+
+
+img {
+    width: 20rem;
+
+    border-radius: 8px;
 }
 
 .attribution {
