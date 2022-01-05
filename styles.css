@@ -28,13 +28,11 @@ body {
     background-color: var(--Verydarkbluecard);
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margin: 7rem auto 0 auto;
     width: 20.5rem;
     height: 32.5rem;
-    margin-top: 5rem;
     border-radius: 0.625rem;
 }
-
 
 .card-img {
     display: flex;
