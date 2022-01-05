@@ -35,6 +35,7 @@ body {
     border-radius: 0.625rem;
 }
 
+
 .card-img {
     display: flex;
     justify-content: center;
@@ -43,10 +44,13 @@ body {
 
 }
 
+
 img {
     width: 17rem;
     border-radius: 0.5rem;
 }
+
+
 
 .title-detail {
     display: flex;
@@ -150,4 +154,70 @@ span {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+
+/* media queries */
+
+
+@media (max-width: 280px) {
+    .container {
+        width: 90%;
+        height: 75%;
+    }
+
+    img {
+        width: 90%;
+    }
+
+    .creation {
+        padding-bottom: 0.625rem;
+    }
+}
+
+@media (min-width: 2560px) {
+    .container {
+        display: flex;
+        width: 40%;
+        height: 55%;
+        justify-content: center;
+
+    }
+
+    img {
+        width: 60%;
+        border-radius: 3.75rem;
+    }
+
+    .title-detail {
+        text-align: center;
+    }
+
+    .time {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .creation {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 0.625rem;
+    }
+
+    h3 {
+        font-size: 2.3rem;
+    }
+
+    .details {
+        font-size: 1.3rem;
+    }
+
+    .days-left,
+    .eth {
+        font-size: 1.25rem;
+    }
+
+    .creation-p {
+        font-size: 1.2rem;
+    }
 }
